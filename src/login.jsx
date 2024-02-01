@@ -43,7 +43,7 @@ function Login () {
   }
 
   function handleLogin(username, password) {
-    fetch(`http://localhost:3000/auth/login`, {
+    fetch(`https://tincar-backend.onrender.com/auth/login`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -66,7 +66,7 @@ function Login () {
   } 
 
   function handleSignUp() {
-    fetch(`http://localhost:3000/auth/register`, {
+    fetch(`https://tincar-backend.onrender.com/auth/register`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
