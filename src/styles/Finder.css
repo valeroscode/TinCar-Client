@@ -29,7 +29,7 @@ border-radius: 7px;
 display: flex;
 flex-direction: column;
 align-items: center;
-margin: 5px 2px 0 2px;
+margin: 5px 2px 0.5rem 2px;
 }
 .btn-list li div {
 background-color: whitesmoke;
