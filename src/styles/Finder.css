@@ -1570,6 +1570,9 @@ width: 70%;
 .finance-calc-text {
   text-align: center;
 } 
+.ad-container {
+margin-left: 0;
+}
 }
 
 @media screen and (max-width: 405px) {
