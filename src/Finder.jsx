@@ -563,14 +563,18 @@ function Finder() {
 
     const brands = useRef();
     const scroller = useRef();
+    const brandsSection = useRef();
 
     useEffect(() => {
 
         setLoaded(true)
         // If a user hasn't opted in for recuded motion, then we add the animation
-        if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches && window.innerWidth > 600) {
           addAnimation();
           }
+        if (window.innerWidth <= 600) {
+          brandsSection.current.style.display = 'none';
+        }
         
           function addAnimation() {
           // add data-animated="true" to every `.scroller` on the page
@@ -929,7 +933,7 @@ buttons.handleSearch();
 
     </section>
 
-    <section className='brands-section'>
+    <section className='brands-section' ref={brandsSection}>
     <h1 className='supp-brands'>Supported Brands</h1>
     <div ref={brands} className='brands' data-direction="left" data-speed="slow">
     <div ref={scroller} className='scroller'>
