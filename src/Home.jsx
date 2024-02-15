@@ -246,7 +246,7 @@ function App() {
         <section id="press">
           <img className="sponsor" src="/techcrunch-logo.png" alt="tc-logo" />
           <img className="sponsor" src="/tnw-logo_1.png" alt="tnw-logo" />
-          <img className="sponsor" src="/Bi_light_background_color_horizontal.png" alt="biz-insider-logo" />
+          <img className="sponsor" src="/BI_light_background_color_horizontal.png" alt="biz-insider-logo" />
           <img className="sponsor" src="/Mashable_Logo.svg.png" alt="mashable-logo" />
         </section>
         {/* Pricing */}
