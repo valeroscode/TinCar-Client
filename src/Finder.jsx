@@ -934,7 +934,7 @@ buttons.handleSearch();
     <div ref={brands} className='brands' data-direction="left" data-speed="slow">
     <div ref={scroller} className='scroller'>
       <img src="/Acura.png" alt="" />
-      <img src="/Toyota-logo.png" alt="" />
+      <img src="/toyota-logo.png" alt="" />
       <img src="/honda-logo.png" alt="" />
       <img src="/mazda-logo.png" alt="" />
       <img src="/Subaru-logo.png" alt="" />
