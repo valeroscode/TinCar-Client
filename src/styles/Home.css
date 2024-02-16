@@ -402,6 +402,8 @@ font-size: 2.7rem;
 font-family:"Montserrat";
 font-weight: 200;
 color: gray;
+margin: 0;
+margin-left: 0.5rem;
 }
 
 #login div input {
@@ -507,6 +509,9 @@ left: 2rem;
 top: 2rem;
 display: flex;
 color: #ff4c68;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .X {
@@ -566,7 +571,10 @@ left: -10rem;
   .navbar-nav {
   flex-direction: row;
   }
- 
+ #login-section {
+    width: 85vw;
+   left: 7vw;
+ }
   }
 
 @media screen and (max-width: 1078px) {
